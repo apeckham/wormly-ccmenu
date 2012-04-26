@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/' do
-  "Hello world"
+get '/cctray.xml' do
+  erb :cctray
 end
